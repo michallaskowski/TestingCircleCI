@@ -1,4 +1,8 @@
 machine:
   xcode:
     version: 7.3
-
+general:
+  branches:
+    only:
+      - develop
+      - master
